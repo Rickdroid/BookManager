@@ -68,6 +68,7 @@ namespace BookManager
         //登录
         private void Logingo_Click(object sender, EventArgs e)
         {
+            //窗口跳转
             this.DialogResult = DialogResult.OK;
             this.Dispose();
             this.Close();

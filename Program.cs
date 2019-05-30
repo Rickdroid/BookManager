@@ -21,9 +21,10 @@ namespace BookManager
             Login loGingo = new Login();
             loGingo.ShowDialog();
 
-            if(loGingo.DialogResult == DialogResult.OK)
+            //窗口跳转
+            if(loGingo.DialogResult == DialogResult.OK) //判断login类的button是否确认
             {
-                loGingo.Dispose();
+                loGingo.Dispose(); //释放桌面资源
                 Application.Run(new Index());
             }
             else if(loGingo.DialogResult == DialogResult.Cancel)
