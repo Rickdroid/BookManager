@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BookManager
 {
-    public partial class loginwindow : Form
+    public partial class Login : Form
     {
-        public loginwindow()
+        public Login()
         {
             InitializeComponent();
         }
@@ -39,9 +39,9 @@ namespace BookManager
 
         //窗体移动
 
-        public int topPosition;
-        public int leftPosition;
-        public bool moveStatus = false;
+        public int topPosition; //获取Y轴坐标
+        public int leftPosition; //获取X轴坐标
+        public bool moveStatus = false; //移动窗口功能启动开关
         private void welPicture_MouseDown(object sender, MouseEventArgs e)
         {
             moveStatus = true;
@@ -63,6 +63,22 @@ namespace BookManager
         private void WelPicture_MouseUp(object sender, MouseEventArgs e)
         {
             moveStatus = false;
+        }
+
+        //登录
+        private void Logingo_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+            this.Dispose();
+            this.Close();
+            /*if()
+            {
+                
+            }
+            else
+            {
+            
+            }*/
         }
     }
 }

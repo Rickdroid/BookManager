@@ -16,7 +16,21 @@ namespace BookManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new loginwindow());
+            //Application.Run(new Login());
+
+            Login loGingo = new Login();
+            loGingo.ShowDialog();
+
+            if(loGingo.DialogResult == DialogResult.OK)
+            {
+                loGingo.Dispose();
+                Application.Run(new Home());
+            }
+            else if(loGingo.DialogResult == DialogResult.Cancel)
+            {
+                loGingo.Dispose();
+                return;
+            }
         }
     }
 }

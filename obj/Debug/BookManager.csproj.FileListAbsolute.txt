@@ -2,9 +2,10 @@ I:\C#\BookManager\BookManager\bin\Debug\BookManager.exe.config
 I:\C#\BookManager\BookManager\bin\Debug\BookManager.exe
 I:\C#\BookManager\BookManager\bin\Debug\BookManager.pdb
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
-I:\C#\BookManager\BookManager\obj\Debug\BookManager.loginwindow.resources
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.exe
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.pdb
+I:\C#\BookManager\BookManager\obj\Debug\BookManager.home.resources
+I:\C#\BookManager\BookManager\obj\Debug\BookManager.Login.resources

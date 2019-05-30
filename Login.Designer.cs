@@ -1,6 +1,6 @@
 ﻿namespace BookManager
 {
-    partial class loginwindow
+    partial class Login
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -47,6 +47,7 @@
             this.Logingo.TabIndex = 0;
             this.Logingo.Text = "button1";
             this.Logingo.UseVisualStyleBackColor = true;
+            this.Logingo.Click += new System.EventHandler(this.Logingo_Click);
             // 
             // welPicture
             // 
@@ -102,7 +103,7 @@
             this.windowclose.TabStop = false;
             this.windowclose.Click += new System.EventHandler(this.Windowclose_Click);
             // 
-            // loginwindow
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -114,7 +115,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.welPicture);
             this.Controls.Add(this.Logingo);
-            this.Name = "loginwindow";
+            this.Name = "Login";
             this.Text = "后台登录";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.welPicture)).EndInit();
