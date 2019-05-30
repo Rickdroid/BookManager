@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace BookManager
 {
-    public partial class Home : Form
+    public partial class Index : Form
     {
-        public Home()
+        public Index()
         {
             InitializeComponent();
         }
 
-        private void Home_Load(object sender, EventArgs e)
+        private void Index_Load(object sender, EventArgs e)
         {
             this.FormBorderStyle = FormBorderStyle.None;
 
-            topbar.BackColor = Color.Gray;
+            Topbar.BackColor = Color.Gray;
         }
 
         //窗体移动 
-        public int topPosition; 
+        public int topPosition;
         public int leftPosition;
         public bool moveStatus = false;
 

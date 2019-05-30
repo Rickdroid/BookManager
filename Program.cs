@@ -24,7 +24,7 @@ namespace BookManager
             if(loGingo.DialogResult == DialogResult.OK)
             {
                 loGingo.Dispose();
-                Application.Run(new Home());
+                Application.Run(new Index());
             }
             else if(loGingo.DialogResult == DialogResult.Cancel)
             {

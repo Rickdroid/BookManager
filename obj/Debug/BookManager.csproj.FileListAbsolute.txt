@@ -7,5 +7,5 @@ I:\C#\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cach
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.exe
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.pdb
-I:\C#\BookManager\BookManager\obj\Debug\BookManager.home.resources
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.Login.resources
+I:\C#\BookManager\BookManager\obj\Debug\BookManager.Index.resources
