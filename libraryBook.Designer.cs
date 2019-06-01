@@ -31,7 +31,7 @@
             this.Topbar = new System.Windows.Forms.PictureBox();
             this.winClose = new System.Windows.Forms.PictureBox();
             this.winMini = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bookDatas = new System.Windows.Forms.DataGridView();
             this.bookNum = new System.Windows.Forms.Label();
             this.bookNumin = new System.Windows.Forms.TextBox();
             this.bookIsbn = new System.Windows.Forms.Label();
@@ -41,36 +41,36 @@
             this.bookSearch = new System.Windows.Forms.Button();
             this.bookNumout = new System.Windows.Forms.Label();
             this.bookSearMessage = new System.Windows.Forms.Panel();
-            this.bookNumoutText = new System.Windows.Forms.TextBox();
-            this.bookNameout = new System.Windows.Forms.Label();
-            this.bookNameoutText = new System.Windows.Forms.TextBox();
-            this.bookIsbnout = new System.Windows.Forms.Label();
-            this.bookIsbnoutText = new System.Windows.Forms.TextBox();
-            this.bookAuthorout = new System.Windows.Forms.Label();
-            this.bookAuthoroutText = new System.Windows.Forms.TextBox();
-            this.bookCompany = new System.Windows.Forms.Label();
-            this.bookCompanyText = new System.Windows.Forms.TextBox();
-            this.bookDate = new System.Windows.Forms.Label();
-            this.bookOutnum = new System.Windows.Forms.Label();
-            this.bookIntime = new System.Windows.Forms.Label();
-            this.bookDateText = new System.Windows.Forms.TextBox();
-            this.bookOutnumText = new System.Windows.Forms.TextBox();
-            this.bookStoryText = new System.Windows.Forms.RichTextBox();
-            this.bookIntimeText = new System.Windows.Forms.TextBox();
-            this.bookStory = new System.Windows.Forms.Label();
-            this.bookLanguage = new System.Windows.Forms.Label();
-            this.bookSubject = new System.Windows.Forms.Label();
-            this.bookRemaining = new System.Windows.Forms.Label();
-            this.booksOf = new System.Windows.Forms.Label();
-            this.bookLanguageText = new System.Windows.Forms.TextBox();
-            this.bookSubjectText = new System.Windows.Forms.TextBox();
-            this.bookRemainingText = new System.Windows.Forms.TextBox();
-            this.booksOfText = new System.Windows.Forms.TextBox();
             this.bookPicture = new System.Windows.Forms.PictureBox();
+            this.booksOfText = new System.Windows.Forms.TextBox();
+            this.bookRemainingText = new System.Windows.Forms.TextBox();
+            this.bookSubjectText = new System.Windows.Forms.TextBox();
+            this.bookLanguageText = new System.Windows.Forms.TextBox();
+            this.booksOf = new System.Windows.Forms.Label();
+            this.bookRemaining = new System.Windows.Forms.Label();
+            this.bookSubject = new System.Windows.Forms.Label();
+            this.bookLanguage = new System.Windows.Forms.Label();
+            this.bookStory = new System.Windows.Forms.Label();
+            this.bookIntimeText = new System.Windows.Forms.TextBox();
+            this.bookStoryText = new System.Windows.Forms.RichTextBox();
+            this.bookOutnumText = new System.Windows.Forms.TextBox();
+            this.bookDateText = new System.Windows.Forms.TextBox();
+            this.bookIntime = new System.Windows.Forms.Label();
+            this.bookOutnum = new System.Windows.Forms.Label();
+            this.bookDate = new System.Windows.Forms.Label();
+            this.bookCompanyText = new System.Windows.Forms.TextBox();
+            this.bookCompany = new System.Windows.Forms.Label();
+            this.bookAuthoroutText = new System.Windows.Forms.TextBox();
+            this.bookAuthorout = new System.Windows.Forms.Label();
+            this.bookIsbnoutText = new System.Windows.Forms.TextBox();
+            this.bookIsbnout = new System.Windows.Forms.Label();
+            this.bookNameoutText = new System.Windows.Forms.TextBox();
+            this.bookNameout = new System.Windows.Forms.Label();
+            this.bookNumoutText = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Topbar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.winClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.winMini)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookDatas)).BeginInit();
             this.bookSearMessage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bookPicture)).BeginInit();
             this.SuspendLayout();
@@ -105,14 +105,14 @@
             this.winMini.TabStop = false;
             this.winMini.Click += new System.EventHandler(this.winMini_Click);
             // 
-            // dataGridView1
+            // bookDatas
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 525);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1240, 224);
-            this.dataGridView1.TabIndex = 3;
+            this.bookDatas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bookDatas.Location = new System.Drawing.Point(12, 525);
+            this.bookDatas.Name = "bookDatas";
+            this.bookDatas.RowTemplate.Height = 23;
+            this.bookDatas.Size = new System.Drawing.Size(1240, 224);
+            this.bookDatas.TabIndex = 3;
             // 
             // bookNum
             // 
@@ -214,168 +214,41 @@
             this.bookSearMessage.Size = new System.Drawing.Size(1240, 446);
             this.bookSearMessage.TabIndex = 12;
             // 
-            // bookNumoutText
+            // bookPicture
             // 
-            this.bookNumoutText.Location = new System.Drawing.Point(70, 30);
-            this.bookNumoutText.Name = "bookNumoutText";
-            this.bookNumoutText.Size = new System.Drawing.Size(177, 21);
-            this.bookNumoutText.TabIndex = 12;
+            this.bookPicture.Location = new System.Drawing.Point(914, 13);
+            this.bookPicture.Name = "bookPicture";
+            this.bookPicture.Size = new System.Drawing.Size(300, 414);
+            this.bookPicture.TabIndex = 37;
+            this.bookPicture.TabStop = false;
             // 
-            // bookNameout
+            // booksOfText
             // 
-            this.bookNameout.AutoSize = true;
-            this.bookNameout.Location = new System.Drawing.Point(11, 82);
-            this.bookNameout.Name = "bookNameout";
-            this.bookNameout.Size = new System.Drawing.Size(41, 12);
-            this.bookNameout.TabIndex = 13;
-            this.bookNameout.Text = "label2";
+            this.booksOfText.Location = new System.Drawing.Point(686, 178);
+            this.booksOfText.Name = "booksOfText";
+            this.booksOfText.Size = new System.Drawing.Size(177, 21);
+            this.booksOfText.TabIndex = 36;
             // 
-            // bookNameoutText
+            // bookRemainingText
             // 
-            this.bookNameoutText.Location = new System.Drawing.Point(70, 79);
-            this.bookNameoutText.Name = "bookNameoutText";
-            this.bookNameoutText.Size = new System.Drawing.Size(177, 21);
-            this.bookNameoutText.TabIndex = 14;
+            this.bookRemainingText.Location = new System.Drawing.Point(686, 129);
+            this.bookRemainingText.Name = "bookRemainingText";
+            this.bookRemainingText.Size = new System.Drawing.Size(177, 21);
+            this.bookRemainingText.TabIndex = 35;
             // 
-            // bookIsbnout
+            // bookSubjectText
             // 
-            this.bookIsbnout.AutoSize = true;
-            this.bookIsbnout.Location = new System.Drawing.Point(11, 132);
-            this.bookIsbnout.Name = "bookIsbnout";
-            this.bookIsbnout.Size = new System.Drawing.Size(41, 12);
-            this.bookIsbnout.TabIndex = 15;
-            this.bookIsbnout.Text = "label3";
+            this.bookSubjectText.Location = new System.Drawing.Point(686, 79);
+            this.bookSubjectText.Name = "bookSubjectText";
+            this.bookSubjectText.Size = new System.Drawing.Size(177, 21);
+            this.bookSubjectText.TabIndex = 34;
             // 
-            // bookIsbnoutText
+            // bookLanguageText
             // 
-            this.bookIsbnoutText.Location = new System.Drawing.Point(70, 129);
-            this.bookIsbnoutText.Name = "bookIsbnoutText";
-            this.bookIsbnoutText.Size = new System.Drawing.Size(177, 21);
-            this.bookIsbnoutText.TabIndex = 16;
-            // 
-            // bookAuthorout
-            // 
-            this.bookAuthorout.AutoSize = true;
-            this.bookAuthorout.Location = new System.Drawing.Point(11, 181);
-            this.bookAuthorout.Name = "bookAuthorout";
-            this.bookAuthorout.Size = new System.Drawing.Size(41, 12);
-            this.bookAuthorout.TabIndex = 17;
-            this.bookAuthorout.Text = "label4";
-            // 
-            // bookAuthoroutText
-            // 
-            this.bookAuthoroutText.Location = new System.Drawing.Point(70, 178);
-            this.bookAuthoroutText.Name = "bookAuthoroutText";
-            this.bookAuthoroutText.Size = new System.Drawing.Size(177, 21);
-            this.bookAuthoroutText.TabIndex = 18;
-            // 
-            // bookCompany
-            // 
-            this.bookCompany.AutoSize = true;
-            this.bookCompany.Location = new System.Drawing.Point(314, 33);
-            this.bookCompany.Name = "bookCompany";
-            this.bookCompany.Size = new System.Drawing.Size(41, 12);
-            this.bookCompany.TabIndex = 19;
-            this.bookCompany.Text = "label5";
-            // 
-            // bookCompanyText
-            // 
-            this.bookCompanyText.Location = new System.Drawing.Point(373, 30);
-            this.bookCompanyText.Name = "bookCompanyText";
-            this.bookCompanyText.Size = new System.Drawing.Size(177, 21);
-            this.bookCompanyText.TabIndex = 20;
-            // 
-            // bookDate
-            // 
-            this.bookDate.AutoSize = true;
-            this.bookDate.Location = new System.Drawing.Point(314, 82);
-            this.bookDate.Name = "bookDate";
-            this.bookDate.Size = new System.Drawing.Size(41, 12);
-            this.bookDate.TabIndex = 21;
-            this.bookDate.Text = "label6";
-            // 
-            // bookOutnum
-            // 
-            this.bookOutnum.AutoSize = true;
-            this.bookOutnum.Location = new System.Drawing.Point(314, 132);
-            this.bookOutnum.Name = "bookOutnum";
-            this.bookOutnum.Size = new System.Drawing.Size(41, 12);
-            this.bookOutnum.TabIndex = 22;
-            this.bookOutnum.Text = "label7";
-            // 
-            // bookIntime
-            // 
-            this.bookIntime.AutoSize = true;
-            this.bookIntime.Location = new System.Drawing.Point(314, 181);
-            this.bookIntime.Name = "bookIntime";
-            this.bookIntime.Size = new System.Drawing.Size(41, 12);
-            this.bookIntime.TabIndex = 23;
-            this.bookIntime.Text = "label8";
-            // 
-            // bookDateText
-            // 
-            this.bookDateText.Location = new System.Drawing.Point(373, 79);
-            this.bookDateText.Name = "bookDateText";
-            this.bookDateText.Size = new System.Drawing.Size(177, 21);
-            this.bookDateText.TabIndex = 24;
-            // 
-            // bookOutnumText
-            // 
-            this.bookOutnumText.Location = new System.Drawing.Point(373, 129);
-            this.bookOutnumText.Name = "bookOutnumText";
-            this.bookOutnumText.Size = new System.Drawing.Size(177, 21);
-            this.bookOutnumText.TabIndex = 25;
-            // 
-            // bookStoryText
-            // 
-            this.bookStoryText.Location = new System.Drawing.Point(70, 229);
-            this.bookStoryText.Name = "bookStoryText";
-            this.bookStoryText.Size = new System.Drawing.Size(480, 183);
-            this.bookStoryText.TabIndex = 26;
-            this.bookStoryText.Text = "";
-            // 
-            // bookIntimeText
-            // 
-            this.bookIntimeText.Location = new System.Drawing.Point(373, 178);
-            this.bookIntimeText.Name = "bookIntimeText";
-            this.bookIntimeText.Size = new System.Drawing.Size(177, 21);
-            this.bookIntimeText.TabIndex = 27;
-            // 
-            // bookStory
-            // 
-            this.bookStory.AutoSize = true;
-            this.bookStory.Location = new System.Drawing.Point(11, 232);
-            this.bookStory.Name = "bookStory";
-            this.bookStory.Size = new System.Drawing.Size(41, 12);
-            this.bookStory.TabIndex = 28;
-            this.bookStory.Text = "label9";
-            // 
-            // bookLanguage
-            // 
-            this.bookLanguage.AutoSize = true;
-            this.bookLanguage.Location = new System.Drawing.Point(627, 33);
-            this.bookLanguage.Name = "bookLanguage";
-            this.bookLanguage.Size = new System.Drawing.Size(41, 12);
-            this.bookLanguage.TabIndex = 29;
-            this.bookLanguage.Text = "label1";
-            // 
-            // bookSubject
-            // 
-            this.bookSubject.AutoSize = true;
-            this.bookSubject.Location = new System.Drawing.Point(627, 82);
-            this.bookSubject.Name = "bookSubject";
-            this.bookSubject.Size = new System.Drawing.Size(41, 12);
-            this.bookSubject.TabIndex = 30;
-            this.bookSubject.Text = "label2";
-            // 
-            // bookRemaining
-            // 
-            this.bookRemaining.AutoSize = true;
-            this.bookRemaining.Location = new System.Drawing.Point(627, 132);
-            this.bookRemaining.Name = "bookRemaining";
-            this.bookRemaining.Size = new System.Drawing.Size(41, 12);
-            this.bookRemaining.TabIndex = 31;
-            this.bookRemaining.Text = "label3";
+            this.bookLanguageText.Location = new System.Drawing.Point(686, 30);
+            this.bookLanguageText.Name = "bookLanguageText";
+            this.bookLanguageText.Size = new System.Drawing.Size(177, 21);
+            this.bookLanguageText.TabIndex = 33;
             // 
             // booksOf
             // 
@@ -386,41 +259,168 @@
             this.booksOf.TabIndex = 32;
             this.booksOf.Text = "label4";
             // 
-            // bookLanguageText
+            // bookRemaining
             // 
-            this.bookLanguageText.Location = new System.Drawing.Point(686, 30);
-            this.bookLanguageText.Name = "bookLanguageText";
-            this.bookLanguageText.Size = new System.Drawing.Size(177, 21);
-            this.bookLanguageText.TabIndex = 33;
+            this.bookRemaining.AutoSize = true;
+            this.bookRemaining.Location = new System.Drawing.Point(627, 132);
+            this.bookRemaining.Name = "bookRemaining";
+            this.bookRemaining.Size = new System.Drawing.Size(41, 12);
+            this.bookRemaining.TabIndex = 31;
+            this.bookRemaining.Text = "label3";
             // 
-            // bookSubjectText
+            // bookSubject
             // 
-            this.bookSubjectText.Location = new System.Drawing.Point(686, 79);
-            this.bookSubjectText.Name = "bookSubjectText";
-            this.bookSubjectText.Size = new System.Drawing.Size(177, 21);
-            this.bookSubjectText.TabIndex = 34;
+            this.bookSubject.AutoSize = true;
+            this.bookSubject.Location = new System.Drawing.Point(627, 82);
+            this.bookSubject.Name = "bookSubject";
+            this.bookSubject.Size = new System.Drawing.Size(41, 12);
+            this.bookSubject.TabIndex = 30;
+            this.bookSubject.Text = "label2";
             // 
-            // bookRemainingText
+            // bookLanguage
             // 
-            this.bookRemainingText.Location = new System.Drawing.Point(686, 129);
-            this.bookRemainingText.Name = "bookRemainingText";
-            this.bookRemainingText.Size = new System.Drawing.Size(177, 21);
-            this.bookRemainingText.TabIndex = 35;
+            this.bookLanguage.AutoSize = true;
+            this.bookLanguage.Location = new System.Drawing.Point(627, 33);
+            this.bookLanguage.Name = "bookLanguage";
+            this.bookLanguage.Size = new System.Drawing.Size(41, 12);
+            this.bookLanguage.TabIndex = 29;
+            this.bookLanguage.Text = "label1";
             // 
-            // booksOfText
+            // bookStory
             // 
-            this.booksOfText.Location = new System.Drawing.Point(686, 178);
-            this.booksOfText.Name = "booksOfText";
-            this.booksOfText.Size = new System.Drawing.Size(177, 21);
-            this.booksOfText.TabIndex = 36;
+            this.bookStory.AutoSize = true;
+            this.bookStory.Location = new System.Drawing.Point(11, 232);
+            this.bookStory.Name = "bookStory";
+            this.bookStory.Size = new System.Drawing.Size(41, 12);
+            this.bookStory.TabIndex = 28;
+            this.bookStory.Text = "label9";
             // 
-            // bookPicture
+            // bookIntimeText
             // 
-            this.bookPicture.Location = new System.Drawing.Point(914, 13);
-            this.bookPicture.Name = "bookPicture";
-            this.bookPicture.Size = new System.Drawing.Size(300, 414);
-            this.bookPicture.TabIndex = 37;
-            this.bookPicture.TabStop = false;
+            this.bookIntimeText.Location = new System.Drawing.Point(373, 178);
+            this.bookIntimeText.Name = "bookIntimeText";
+            this.bookIntimeText.Size = new System.Drawing.Size(177, 21);
+            this.bookIntimeText.TabIndex = 27;
+            // 
+            // bookStoryText
+            // 
+            this.bookStoryText.Location = new System.Drawing.Point(70, 229);
+            this.bookStoryText.Name = "bookStoryText";
+            this.bookStoryText.Size = new System.Drawing.Size(480, 183);
+            this.bookStoryText.TabIndex = 26;
+            this.bookStoryText.Text = "";
+            // 
+            // bookOutnumText
+            // 
+            this.bookOutnumText.Location = new System.Drawing.Point(373, 129);
+            this.bookOutnumText.Name = "bookOutnumText";
+            this.bookOutnumText.Size = new System.Drawing.Size(177, 21);
+            this.bookOutnumText.TabIndex = 25;
+            // 
+            // bookDateText
+            // 
+            this.bookDateText.Location = new System.Drawing.Point(373, 79);
+            this.bookDateText.Name = "bookDateText";
+            this.bookDateText.Size = new System.Drawing.Size(177, 21);
+            this.bookDateText.TabIndex = 24;
+            // 
+            // bookIntime
+            // 
+            this.bookIntime.AutoSize = true;
+            this.bookIntime.Location = new System.Drawing.Point(314, 181);
+            this.bookIntime.Name = "bookIntime";
+            this.bookIntime.Size = new System.Drawing.Size(41, 12);
+            this.bookIntime.TabIndex = 23;
+            this.bookIntime.Text = "label8";
+            // 
+            // bookOutnum
+            // 
+            this.bookOutnum.AutoSize = true;
+            this.bookOutnum.Location = new System.Drawing.Point(314, 132);
+            this.bookOutnum.Name = "bookOutnum";
+            this.bookOutnum.Size = new System.Drawing.Size(41, 12);
+            this.bookOutnum.TabIndex = 22;
+            this.bookOutnum.Text = "label7";
+            // 
+            // bookDate
+            // 
+            this.bookDate.AutoSize = true;
+            this.bookDate.Location = new System.Drawing.Point(314, 82);
+            this.bookDate.Name = "bookDate";
+            this.bookDate.Size = new System.Drawing.Size(41, 12);
+            this.bookDate.TabIndex = 21;
+            this.bookDate.Text = "label6";
+            // 
+            // bookCompanyText
+            // 
+            this.bookCompanyText.Location = new System.Drawing.Point(373, 30);
+            this.bookCompanyText.Name = "bookCompanyText";
+            this.bookCompanyText.Size = new System.Drawing.Size(177, 21);
+            this.bookCompanyText.TabIndex = 20;
+            // 
+            // bookCompany
+            // 
+            this.bookCompany.AutoSize = true;
+            this.bookCompany.Location = new System.Drawing.Point(314, 33);
+            this.bookCompany.Name = "bookCompany";
+            this.bookCompany.Size = new System.Drawing.Size(41, 12);
+            this.bookCompany.TabIndex = 19;
+            this.bookCompany.Text = "label5";
+            // 
+            // bookAuthoroutText
+            // 
+            this.bookAuthoroutText.Location = new System.Drawing.Point(70, 178);
+            this.bookAuthoroutText.Name = "bookAuthoroutText";
+            this.bookAuthoroutText.Size = new System.Drawing.Size(177, 21);
+            this.bookAuthoroutText.TabIndex = 18;
+            // 
+            // bookAuthorout
+            // 
+            this.bookAuthorout.AutoSize = true;
+            this.bookAuthorout.Location = new System.Drawing.Point(11, 181);
+            this.bookAuthorout.Name = "bookAuthorout";
+            this.bookAuthorout.Size = new System.Drawing.Size(41, 12);
+            this.bookAuthorout.TabIndex = 17;
+            this.bookAuthorout.Text = "label4";
+            // 
+            // bookIsbnoutText
+            // 
+            this.bookIsbnoutText.Location = new System.Drawing.Point(70, 129);
+            this.bookIsbnoutText.Name = "bookIsbnoutText";
+            this.bookIsbnoutText.Size = new System.Drawing.Size(177, 21);
+            this.bookIsbnoutText.TabIndex = 16;
+            // 
+            // bookIsbnout
+            // 
+            this.bookIsbnout.AutoSize = true;
+            this.bookIsbnout.Location = new System.Drawing.Point(11, 132);
+            this.bookIsbnout.Name = "bookIsbnout";
+            this.bookIsbnout.Size = new System.Drawing.Size(41, 12);
+            this.bookIsbnout.TabIndex = 15;
+            this.bookIsbnout.Text = "label3";
+            // 
+            // bookNameoutText
+            // 
+            this.bookNameoutText.Location = new System.Drawing.Point(70, 79);
+            this.bookNameoutText.Name = "bookNameoutText";
+            this.bookNameoutText.Size = new System.Drawing.Size(177, 21);
+            this.bookNameoutText.TabIndex = 14;
+            // 
+            // bookNameout
+            // 
+            this.bookNameout.AutoSize = true;
+            this.bookNameout.Location = new System.Drawing.Point(11, 82);
+            this.bookNameout.Name = "bookNameout";
+            this.bookNameout.Size = new System.Drawing.Size(41, 12);
+            this.bookNameout.TabIndex = 13;
+            this.bookNameout.Text = "label2";
+            // 
+            // bookNumoutText
+            // 
+            this.bookNumoutText.Location = new System.Drawing.Point(70, 30);
+            this.bookNumoutText.Name = "bookNumoutText";
+            this.bookNumoutText.Size = new System.Drawing.Size(177, 21);
+            this.bookNumoutText.TabIndex = 12;
             // 
             // libraryBook
             // 
@@ -435,7 +435,7 @@
             this.Controls.Add(this.bookIsbn);
             this.Controls.Add(this.bookNumin);
             this.Controls.Add(this.bookNum);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.bookDatas);
             this.Controls.Add(this.winMini);
             this.Controls.Add(this.winClose);
             this.Controls.Add(this.Topbar);
@@ -446,7 +446,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Topbar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.winClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.winMini)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookDatas)).EndInit();
             this.bookSearMessage.ResumeLayout(false);
             this.bookSearMessage.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bookPicture)).EndInit();
@@ -460,7 +460,7 @@
         private System.Windows.Forms.PictureBox Topbar;
         private System.Windows.Forms.PictureBox winClose;
         private System.Windows.Forms.PictureBox winMini;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView bookDatas;
         private System.Windows.Forms.Label bookNum;
         private System.Windows.Forms.TextBox bookNumin;
         private System.Windows.Forms.Label bookIsbn;
