@@ -25,7 +25,7 @@ namespace BookManager
             if(loGingo.DialogResult == DialogResult.OK) //判断login类的button是否确认
             {
                 loGingo.Dispose(); //释放桌面资源
-                Application.Run(new Index());
+                Application.Run(new IndexNormal());
             }
             else if(loGingo.DialogResult == DialogResult.Cancel)
             {

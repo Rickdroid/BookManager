@@ -8,4 +8,5 @@ I:\C#\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cac
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.exe
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.pdb
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.Login.resources
-I:\C#\BookManager\BookManager\obj\Debug\BookManager.Index.resources
+I:\C#\BookManager\BookManager\obj\Debug\BookManager.IndexNormal.resources
+I:\C#\BookManager\BookManager\obj\Debug\BookManager.libraryBook.resources
