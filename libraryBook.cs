@@ -26,11 +26,36 @@ namespace BookManager
             winClose.BackColor = Color.Red;
             winMini.BackColor = Color.Aqua;
 
+            //顶部控件Text属性
             bookNum.Text = "书籍编号";
             bookIsbn.Text = "书籍ISBN";
             bookName.Text = "书籍名称";
 
             bookSearch.Text = "检索";
+
+            //bookSearMessage内部控件Text属性
+            //label显示的字符，用于告知用户此处是什么
+            bookNumout.Text = "书籍编号";
+            bookNameout.Text = "书籍名称";
+            bookIsbnout.Text = "书籍ISBN";
+            bookAuthorout.Text = "作者";
+            bookCompany.Text = "出版社";
+            bookDate.Text = "出版日期";
+            bookOutnum.Text = "出版号";
+            bookIntime.Text = "入库时间";
+            bookStory.Text = "书籍内容";
+            
+            //textbox的可用性，设置不可用仅用于显示检索的内容
+            bookNumoutText.Enabled = false;
+            bookNameoutText.Enabled = false;
+            bookIsbnoutText.Enabled = false;
+            bookAuthoroutText.Enabled = false;
+            bookCompanyText.Enabled = false;
+            bookDateText.Enabled = false;
+            bookOutnumText.Enabled = false;
+            bookIntimeText.Enabled = false;
+            bookStoryText.Enabled = false;
+
         }
         //窗体移动
         private void Topbar_Click(object sender, EventArgs e)
