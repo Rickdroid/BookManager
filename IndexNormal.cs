@@ -33,7 +33,7 @@ namespace BookManager
             brStatus.BackColor = Color.Aqua;
             perMessage.BackColor = Color.Aqua;
             logOut.BackColor = Color.Aqua;
-            aboutApp.BackColor = Color.Aqua;
+            settingsApp.BackColor = Color.Aqua;
 
             welSetce.Text = "欢迎你";
             welSetce.BackColor = Topbar.BackColor;

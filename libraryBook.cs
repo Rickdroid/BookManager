@@ -19,12 +19,18 @@ namespace BookManager
 
         private void LibraryBook_Load(object sender, EventArgs e)
         {
+            //参照Login的备注
             this.FormBorderStyle = FormBorderStyle.None;
 
             Topbar.BackColor = Color.Gray;
 
             winClose.BackColor = Color.Red;
             winMini.BackColor = Color.Aqua;
+
+            bookPicture.BackColor = Color.Aqua;
+            //bookPicture.Image =
+
+            //
 
             //顶部控件Text属性
             bookNum.Text = "书籍编号";
@@ -44,6 +50,10 @@ namespace BookManager
             bookOutnum.Text = "出版号";
             bookIntime.Text = "入库时间";
             bookStory.Text = "书籍内容";
+            bookLanguage.Text = "书籍语种";
+            booksOf.Text = "书籍数量";
+            bookSubject.Text = "书籍种类";
+            bookRemaining.Text = "库存量";
             
             //textbox的可用性，设置不可用仅用于显示检索的内容
             bookNumoutText.Enabled = false;
@@ -55,6 +65,10 @@ namespace BookManager
             bookOutnumText.Enabled = false;
             bookIntimeText.Enabled = false;
             bookStoryText.Enabled = false;
+            bookLanguageText.Enabled = false;
+            booksOfText.Enabled = false;
+            bookSubjectText.Enabled = false;
+            bookRemainingText.Enabled = false;
 
         }
         //窗体移动

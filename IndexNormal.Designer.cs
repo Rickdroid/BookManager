@@ -37,7 +37,7 @@
             this.brStatus = new System.Windows.Forms.PictureBox();
             this.perMessage = new System.Windows.Forms.PictureBox();
             this.logOut = new System.Windows.Forms.PictureBox();
-            this.aboutApp = new System.Windows.Forms.PictureBox();
+            this.settingsApp = new System.Windows.Forms.PictureBox();
             this.Topbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.winMini)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.winClose)).BeginInit();
@@ -46,7 +46,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.brStatus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.perMessage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logOut)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aboutApp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsApp)).BeginInit();
             this.SuspendLayout();
             // 
             // Topbar
@@ -131,18 +131,18 @@
             this.logOut.TabIndex = 6;
             this.logOut.TabStop = false;
             // 
-            // aboutApp
+            // settingsApp
             // 
-            this.aboutApp.Location = new System.Drawing.Point(494, 326);
-            this.aboutApp.Name = "aboutApp";
-            this.aboutApp.Size = new System.Drawing.Size(150, 150);
-            this.aboutApp.TabIndex = 7;
-            this.aboutApp.TabStop = false;
+            this.settingsApp.Location = new System.Drawing.Point(494, 326);
+            this.settingsApp.Name = "settingsApp";
+            this.settingsApp.Size = new System.Drawing.Size(150, 150);
+            this.settingsApp.TabIndex = 7;
+            this.settingsApp.TabStop = false;
             // 
             // IndexNormal
             // 
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.aboutApp);
+            this.Controls.Add(this.settingsApp);
             this.Controls.Add(this.libraryBooks);
             this.Controls.Add(this.borrowReturn);
             this.Controls.Add(this.brStatus);
@@ -160,7 +160,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.brStatus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.perMessage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logOut)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aboutApp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsApp)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -175,6 +175,6 @@
         private System.Windows.Forms.PictureBox brStatus;
         private System.Windows.Forms.PictureBox perMessage;
         private System.Windows.Forms.PictureBox logOut;
-        private System.Windows.Forms.PictureBox aboutApp;
+        private System.Windows.Forms.PictureBox settingsApp;
     }
 }
