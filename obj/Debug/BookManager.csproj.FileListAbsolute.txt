@@ -10,3 +10,4 @@ I:\C#\BookManager\BookManager\obj\Debug\BookManager.pdb
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.Login.resources
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.IndexNormal.resources
 I:\C#\BookManager\BookManager\obj\Debug\BookManager.libraryBook.resources
+I:\C#\BookManager\BookManager\obj\Debug\BookManager.borrowReturn.resources

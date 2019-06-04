@@ -218,7 +218,7 @@
             // 
             this.bookPicture.Location = new System.Drawing.Point(914, 13);
             this.bookPicture.Name = "bookPicture";
-            this.bookPicture.Size = new System.Drawing.Size(300, 414);
+            this.bookPicture.Size = new System.Drawing.Size(300, 420);
             this.bookPicture.TabIndex = 37;
             this.bookPicture.TabStop = false;
             // 

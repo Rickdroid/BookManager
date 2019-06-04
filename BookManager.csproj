@@ -46,16 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IndexNormal.cs">
+    <Compile Include="userWindow\borrowReturn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IndexNormal.Designer.cs">
+    <Compile Include="userWindow\borrowReturn.Designer.cs">
+      <DependentUpon>borrowReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userWindow\IndexNormal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userWindow\IndexNormal.Designer.cs">
       <DependentUpon>IndexNormal.cs</DependentUpon>
     </Compile>
-    <Compile Include="libraryBook.cs">
+    <Compile Include="userWindow\libraryBook.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="libraryBook.Designer.cs">
+    <Compile Include="userWindow\libraryBook.Designer.cs">
       <DependentUpon>libraryBook.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
@@ -66,10 +72,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="IndexNormal.resx">
+    <EmbeddedResource Include="userWindow\borrowReturn.resx">
+      <DependentUpon>borrowReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userWindow\IndexNormal.resx">
       <DependentUpon>IndexNormal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="libraryBook.resx">
+    <EmbeddedResource Include="userWindow\libraryBook.resx">
       <DependentUpon>libraryBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
@@ -99,6 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="rootWindow\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

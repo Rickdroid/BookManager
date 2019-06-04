@@ -90,5 +90,11 @@ namespace BookManager
             libraryBook libBook = new libraryBook();
             libBook.Show();
         }
+
+        private void BorrowReturn_Click(object sender, EventArgs e)
+        {
+            borrowReturn borrRet = new borrowReturn();
+            borrRet.Show();
+        }
     }
 }

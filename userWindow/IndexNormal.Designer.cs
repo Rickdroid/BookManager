@@ -106,6 +106,7 @@
             this.borrowReturn.Size = new System.Drawing.Size(150, 150);
             this.borrowReturn.TabIndex = 3;
             this.borrowReturn.TabStop = false;
+            this.borrowReturn.Click += new System.EventHandler(this.BorrowReturn_Click);
             // 
             // brStatus
             // 
